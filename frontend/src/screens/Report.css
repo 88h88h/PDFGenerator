@@ -1,0 +1,29 @@
+.report-p {
+    width: 15vw; 
+    text-align: left;
+    margin: 0px;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    margin-bottom: -20px; 
+    border: none;
+    position: relative;
+
+  }
+  .custom-table td,
+  .custom-table th {
+    padding: 0px; /* Adjust the padding value as needed */
+  }
+
+  .qr-code {
+    position: absolute;
+    top: 32vh;
+    right: 1.5vw;
+  }
+
+  .declaredvalue-container {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
